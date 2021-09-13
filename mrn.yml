@@ -62,6 +62,16 @@ kieServer:
   password: kieserver,.!
   url: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
   containerId: fare-engine-training
+  fare:
+    user: kieserver
+    password: kieserver,.!
+    url: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
+    container: fare-engine-training
+  waitingList:
+    user: kieserver
+    password: kieserver,.!
+    url: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
+    container: fare-engine-training
 #Config Eureka
 eureka:
   client:
